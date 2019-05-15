@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="button_template.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4491">
+      <stop
+         style="stop-color:#0098db;stop-opacity:1"
+         offset="0"
+         id="stop4487" />
+      <stop
+         style="stop-color:#a9dbf3;stop-opacity:0.96078432"
+         offset="1"
+         id="stop4489" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4491"
+       id="linearGradient4493"
+       x1="-868.96729"
+       y1="94.78273"
+       x2="-868.96729"
+       y2="33.92857"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.92247334,0,0,0.92247334,-53.986079,7.3947041)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-2720.6687"
+     inkscape:cy="824.26651"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#539dff;fill-opacity:1;fill-rule:evenodd;stroke:#0059cd;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4485-4"
+       width="224.01891"
+       height="56.136341"
+       x="-855.58527"
+       y="38.692905"
+       rx="9.0654974"
+       ry="9.0654974"
+       inkscape:export-xdpi="89.507942"
+       inkscape:export-ydpi="89.507942" />
+    <rect
+       style="fill:url(#linearGradient4493);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.10696805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4485"
+       width="224.01891"
+       height="56.136341"
+       x="-855.58527"
+       y="38.692905"
+       rx="9.0654974"
+       ry="9.0654974"
+       inkscape:export-xdpi="89.507942"
+       inkscape:export-ydpi="89.507942" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.37681159;fill-rule:evenodd;stroke-width:0.19456942"
+       d="m -689.23957,59.022647 c -11.48128,0 -20.78892,2.122803 -20.78892,4.741312 v 31.065288 h 41.57731 V 72.270935 l 7.2068,2.895947 v 19.662365 h 0.88419 v -8.719363 l 2.82154,1.13378 v 7.585583 h 0.70641 v -7.301363 l 2.82101,1.133264 v 6.168099 h 0.70641 v -5.883879 l 2.82102,1.133782 v 4.750097 h 0.70694 v -4.466395 l 2.82101,1.133782 v 3.332613 h 0.70641 v -3.048908 l 2.82102,1.133779 v 1.915129 h 0.70694 v -1.630908 l 2.82101,1.133263 v 0.497645 h 0.81857 V 79.226066 l -22.16248,-9.039243 v 3.610118 l -7.2068,-2.895949 v -7.137033 c 0,-2.618509 -9.30709,-4.741312 -20.78839,-4.741312 z m 28.87938,13.857552 2.82154,1.133782 v 11.225154 l -2.82154,-1.133782 z m -23.18206,0.659908 h 2.20451 v 10.824662 h -2.20451 z m 3.70417,0 h 2.20504 v 10.824662 h -2.20504 z m 3.70417,0 h 2.20504 v 10.824662 h -2.20504 z m 19.30167,0.758095 2.82101,1.133263 v 11.225154 l -2.82101,-1.133263 z m 3.52742,1.417484 2.82102,1.133782 v 11.225154 l -2.82102,-1.133782 z m 3.52796,1.417484 2.82101,1.133782 v 11.225154 l -2.82101,-1.133782 z m 3.52742,1.417484 2.82102,1.133782 V 90.90959 l -2.82102,-1.133782 z m 3.52796,1.418003 2.82101,1.133263 v 11.225154 l -2.82101,-1.133263 z"
+       id="path4523"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="89.507942"
+       inkscape:export-ydpi="89.507942" />
+    <g
+       id="g4521"
+       transform="translate(0,-0.88162399)"
+       inkscape:export-xdpi="89.507942"
+       inkscape:export-ydpi="89.507942">
+      <text
+         id="text4497"
+         y="68.00576"
+         x="-849.5152"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.12575531px;line-height:1;font-family:'A-TTC Shin Go';-inkscape-font-specification:'A-TTC Shin Go';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5531438"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;font-family:'A-TTC Shin Go';-inkscape-font-specification:'A-TTC Shin Go Light Condensed';fill:#ffffff;stroke-width:0.5531438"
+           y="68.00576"
+           x="-849.5152"
+           id="tspan4495"
+           sodipodi:role="line">参加申込システム</tspan></text>
+      <text
+         id="text4497-6"
+         y="84.898788"
+         x="-849.15808"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.6775856px;line-height:1;font-family:'A-TTC Shin Go';-inkscape-font-specification:'A-TTC Shin Go';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.29193959"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;font-family:'A-TTC Shin Go';-inkscape-font-specification:'A-TTC Shin Go Light Condensed';fill:#ffffff;stroke-width:0.29193959"
+           y="84.898788"
+           x="-849.15808"
+           id="tspan4495-0"
+           sodipodi:role="line">七夕祭に参加登録される方はこちらから</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,489 @@
+<HTML>
+	<HEAD>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136245136-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-136245136-1');
+		</script>
+		<TITLE>第30回七夕祭</TITLE>
+		<meta property="og:title" content="第30回七夕祭">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="http://tanabata.sfc.keio.ac.jp/img/card.png">
+		<meta property="og:url" content="http://tanabata.sfc.keio.ac.jp/">
+		<meta property="og:locate" content="ja_JP">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:street-address" content="遠藤5322 λ19">
+		<meta property="og:locality" content="藤沢市">
+		<meta property="og:region" content="神奈川県">
+		<meta property="og:postal-code" content="252-0816郵便番号">
+		<meta property="og:country-name" content="Japan" />
+		<meta name="twitter:site" content="@tanabatasai_19">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image" content="http://tanabata.sfc.keio.ac.jp/img/card_twitter.png">
+		<meta property="fb:admins" content="204536572914412">
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="description" content="SFCで7月6日に開催される慶應唯一の夏祭り、『七夕祭』公式サイトです。">
+		<link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+		<meta name="theme-color" content="#3ca8a1">
+		<script src="countdown.js"></script>
+		<SCRIPT type="text/javascript">
+		<!--
+		var arpx
+		var menuclosed=true;
+		window.onload=function(){
+			countdownTimer();
+		}
+		function openclosemenu(){
+			if(menuclosed){
+				document.getElementById("sidemenu").style.left="0";
+				document.getElementById("headmenubutton").classList.add('sidemenuclosebutton');
+				menuclosed=false;
+			}else{
+				document.getElementById("sidemenu").style.left="100%";
+				document.getElementById("headmenubutton").classList.remove('sidemenuclosebutton');
+				menuclosed=true;
+			}
+		}
+
+
+		-->
+		</SCRIPT>
+		<STYLE type="text/css">
+			/* *{
+				transition: all 300ms 0s ease;
+			}
+			*/
+
+			/* リセット */
+			html,body,div,h1,h2,h3,h4,h5,h6,p,ol,ul,li,dl,dt,dd,table,th,td,form,blockquote,pre,address,fieldset{
+				margin: 0px;
+				padding: 0px;
+			}
+			html{
+				scroll-behavior:smooth;
+			}
+			body{
+				font-family:sans-serif;
+			}
+			*, *:before, *:after {
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-o-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			a:link{color: #0000FF;}
+			a:visited{color: #0000FF;}
+			a:hover{
+				color: #FF0000;
+				text-decoration:none;
+			}
+
+
+			/* ここからメイン */
+			.top{
+				width:1100px;
+				margin:9.0em auto 0;
+				animation: fadeIn 2s ease 0s 1 normal;
+				color:#ffffff;
+				text-align:center;
+				z-index:2;
+			}
+			.top img:nth-child(1){
+				width:100%;
+			}
+			@keyframes fadeIn {
+				0% {
+					opacity: 0;
+					margin-top:15em;
+						transform:scale(0.9,0.9);
+				}
+				100% {
+					opacity: 1;
+					margin-top:9.0em;
+				}
+			}
+			.titlelogo{
+				margin-bottom:1.5em;
+			}
+			.mainmenu{
+				display:flex;
+				align-items: flex-start;
+				justify-content:space-around;
+				width:100%;
+			}
+			.menuelem{
+				display:block;
+				padding:1.5em;
+				margin:1.5em;
+				background-color:rgba(140, 140, 140, 0.8);
+				text-decoration:none;
+				cursor:pointer;
+				color:#ffffff !important;
+				transition: all 300ms 0s ease;
+				z-index:500;
+			}
+			.menuelem:hover{
+				background-color:rgba(99,199,193, 1) !important;
+			}
+			#mainmenu .menuelem:hover, #mainmenu2 .menuelem:hover{
+				transform: scale(1.1,1.1);
+			}
+			.info,.news{
+				background-color: rgba(255,255,255,0.6);
+				border-radius: 10px;
+				color:#000;
+				padding: 1.0em;
+				margin: 1.5em;
+			}
+			.info{
+				font-weight:bold;
+			}
+			.news p:nth-child(1){
+				color:#ff0000;
+				font-weight: bold;
+				font-size:1.1em;
+			}
+			.news p:nth-child(2){
+				font-weight: bold;
+			}
+			.articlesarea{
+				transition: all 300ms 0s ease;
+				width:100%;
+				color:#fff;
+				z-index:-10;
+				text-align:center;
+				opacity:1;
+				overflow:auto;
+				margin-top:3.0em;
+				text-align:left;
+			}
+			.article-1{
+				display:flex;
+			}
+			.newsarticlearea{
+				width:67%;
+				background-color:rgba(70,126,143,0.7);
+				padding:1.8em;
+			}
+			.newsarticlearea ul{
+				padding:0.5em;
+				padding-top:0.7em;
+				padding-left:2.1em;
+				border-radius:10px;
+				background-color:rgba(255,255,255,0.65);
+				color:#000;
+				height:400px;
+				overflow-y:auto;
+			}
+			.newsarticlearea ul li{
+				margin-left:0;
+				margin-bottom:0.5em;
+			}
+			.twarea{
+				width:33%;
+				background-color:rgba(177,55,73,0.7);
+				padding:2.0em;
+				margin-left:5px;
+			}
+			.newsarticlearea h2, .twarea h2{
+				display:inline-block;
+				margin: 0 0 0.5em;
+			}
+			.tw{
+				width:100%;
+				margin:0 auto;
+			}
+			iframe.twitter-timeline{
+				margin: 0 aunto !important;
+			}
+			.footerarea{
+				padding:1.0em;
+				background-color:rgba(66,128,99,0.7);
+				margin-top:5px;
+				color:#FFF;
+				text-align:center;
+			}
+			@media screen and (max-width: 1200px) and (min-width: 769px){
+				.top{
+					width:90%;
+				}
+				img.logo{
+					width: 60%;
+				}
+				.articlesarea{
+					padding-left: 0.5em;
+					padding-right: 0.5em;
+				}
+				.articlesarea .titlelogo{
+					font-size:5.1vw;
+					margin:0;
+					margin-bottom:0.1em;
+				}
+			}
+			/* スマホ */
+			@media screen and (max-width: 768px){
+				#sidemenu{
+					padding-left:1em !important;
+					padding-right:1em !important;
+				}
+				.head_menu{
+					display:none;
+				}
+				.outer{
+					overflow:visible;
+					height:auto;
+					min-height:100%;
+					padding:1.5em;
+				}
+				.top{
+					overflow:hidden;
+					width:95%;
+					position:static;
+					transform:none;
+					opacity:1;
+					margin-top:5.0em;
+				}
+				@keyframes fadeIn {
+					0% {
+						opacity: 0;
+						margin-top:8em;
+						transform:scale(0.95,0.95);
+					}
+					100% {
+						opacity: 1;
+						margin-top:5.0em;
+					}
+				}
+				.titlelogo{
+					width:100%;
+				}
+				#mainmenuarea{
+					opacity:0;
+				}
+				.mainmenu{
+					display:block;
+				}
+				#header{
+					padding:0 !important;
+					height: 3.5em;
+				}
+				#header a{
+					padding:auto !important;
+				}
+				#header img{
+					width:60%;
+					height:auto !important;
+				}
+				img.logo{
+					width: 100%;
+				}
+				.news,.info{
+					margin-left: 0;
+					margin-right: 0;
+				}
+				.articlesarea{
+					margin-top:4.0em;
+					padding-top:0;
+					padding-left: 0.5em;
+					padding-right: 0.5em;
+				}
+				.article-1{
+					display:block;
+				}
+				.twarea, .newsarticlearea{
+					padding:1.2em;
+				}
+				.newsarticlearea{
+					width:100%;
+				}
+				.twarea{
+					width:100%;
+					margin-left:0px;
+					margin-top:5px;
+				}
+			}
+
+			#header{
+				background-color:rgba(60,168,161, 0.8);
+				width:100%;
+				position:fixed;
+				z-index:999;
+				text-align:center;
+				padding:0em;
+				transition: all 300ms 0s ease;
+				overflow:hidden;
+					top:0;
+					left:0;
+			}
+			#header a{
+				display:inline-block;
+				padding:1.0em;
+			}
+			#header img{
+				height:1.5em;
+			}
+			#headmenubutton{
+				position:absolute;
+				top:0;right:0;
+				height:100%;
+				padding:1.0em;
+				cursor:pointer;
+			}
+			#headmenubutton div{
+				background-color:#ffffff;
+				height:2px;
+				width:1.6em;
+				margin-bottom:0.5em;
+				transition: all 240ms 0s ease;
+			}
+			.sidemenuclosebutton div:nth-child(1){
+				transform:rotate(-45deg) translate(-9px,5px);
+			}
+			.sidemenuclosebutton div:nth-child(2){
+				opacity:0;
+			}
+			.sidemenuclosebutton div:nth-child(3){
+				transform:rotate(45deg) translate(-9px,-5px);
+			}
+
+			#sidemenu{
+				width:100%;
+				height:100%;
+				position:fixed;
+				left:100%;
+				top:0;
+				padding:3.5em;
+				background-color:rgba(0,0,0, 0.8);
+				transition: all 240ms 0s ease;
+				z-index:998;
+				text-align:center;
+				overflow:auto;
+			}
+			#sidemenu a{
+				display:block;
+				margin:1.5em;
+				color:#ffffff !important;
+			}
+			#footer{
+				opacity:0;
+				position:fixed;
+				bottom:0;
+				width:100%;
+				transition: all 300ms 0s ease;
+			}
+			#footer .menuelem{
+				padding:0.5em;
+				margin:0;
+				width:33%;
+				text-align:center;
+			}
+			#shinkan iframe{
+				border: solid 1px #CCC !important;
+				border-radius: 10px !important;
+			}
+			strong{
+				font-size: 1.1em;
+			}
+			b.sankadantai{
+				color:#9c0000;
+			}
+			b.general{
+				color:#006f0c;
+			}
+		</STYLE>
+	</HEAD>
+	<BODY>
+		<!-- START -->
+		<DIV id="header">
+			<A HREF="http://tanabata.sfc.keio.ac.jp"><IMG src="img/title.png" alt="第30回慶應義塾大学七夕祭"></A>
+			<DIV id="headmenubutton" onclick="openclosemenu()">
+				<DIV></DIV>
+				<DIV></DIV>
+				<DIV></DIV>
+			</DIV>
+		</DIV>
+		<DIV id="sidemenu" onclick="openclosemenu()">
+			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/">TOP</A>
+			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/about.html">七夕祭について</A>
+			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/access.html">アクセス</A>
+			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/announce.html">注意事項</A>
+			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/tmu/">実行委員の活動</A>
+			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/form/">参加団体の方</A>
+			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/kyousan.html">ご協賛のお願い</A>
+			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/contact.html">お問い合わせ</A>
+		</DIV>
+		<DIV style="position: fixed;width:100%;height:100%;top:0;left:0;background-image:url(img/hanabi1.jpg);z-index:-100;background-size: cover;"></DIV>
+			<DIV class="top" id="toptitle">
+				<P class="titlelogo"><IMG src="img/title.png" alt="第30回 慶應義塾大学七夕祭"></P>
+				<P style="margin-bottom: 1.0em;">◇開催日◇<BR>
+				<STRONG>2019年(令和元年)7月6日(土)</STRONG><BR>
+				@慶應義塾大学 湘南藤沢キャンパス</p>
+				<DIV class="mainmenu" id="mainmenu">
+					<A class="menuelem" href="about.html">七夕祭について</A>
+					<A class="menuelem" href="access.html">アクセス</A>
+					<A class="menuelem" href="announce.html">注意事項</A>
+				</DIV>
+				<DIV class="mainmenu" id="mainmenu2">
+					<A class="menuelem" href="tmu/">実行委員の活動</A>
+					<A class="menuelem" href="form/">参加団体の方</A>
+					<A class="menuelem" href="kyousan.html">ご協賛のお願い</A>
+					<A class="menuelem" href="contact.html">お問い合わせ</A>
+				</DIV>
+				<DIV class="info">
+					<p><B style="color: #f00;">【重要】</B></P>
+					<P>今年度の喫煙所の設置はなくなりました。詳しくは<A href="announce.html">こちら</A>をご確認ください。</p>
+				</DIV>
+				<DIV class="news">
+					<p>What's New?</p>
+					<p>2019(令和元年)/05/09</p>
+					<p><A HREF="form">講習会の予定</A>を更新いたしました。参加団体の方はご確認をお願いします。</p>
+					<p><A HREF="tmu">実行委員会の活動</A>を更新いたしました。</p>
+				</DIV>
+				<DIV style="margin-top: 3.0em;">
+		          <!--Twitter-->
+		              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		          <!--Facebook-->
+		              <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftanabata.sfc.keio.ac.jp%2Faccess.html&layout=button&size=small&mobile_iframe=true&width=61&height=20&appId" width="61" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		          <!--LINE-->
+		                  <div class="line-it-button" data-lang="ja" data-type="share-a" data-url="http://tanabata.sfc.keio.ac.jp/access.html" style="display: none;"></div>
+		                   <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+		          <!--はてなブックマーク-->
+		              <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" data-hatena-bookmark-height="20" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+				</div>
+				<div class="articlesarea">
+					<div class="article-1">
+						<div class="newsarticlearea">
+							<H2>Topics</H2>
+							<ul>
+								<li><B class="general">【一般の皆様へ】</B><B style="color: #f00;">【重要】</B>今年度の喫煙所の設置はなくなりました。詳しくは<A href="announce.html">こちら</A>からご確認をお願いします。</li>
+
+								<li><B class="general">【一般の皆様へ】</B>5月10日まで、生協前にて花火募金を行っています！ご協力お願いします。</li>
+								<li><B class="sankadantai">【参加団体の方へ】</B>5月15日(水)18:10よりΩ11にて第2回総会があります。七夕祭参加予定団体の方は出席が必須となっておりますのでご注意ください。どうしても参加が不可能な場合は<A HREF="contact.html?dantai#mailform">こちら</A>からご連絡をお願いいたします。</li>
+								<li><B class="sankadantai">【参加団体の方へ】</B>6月26日(水)に衛生講習会とアルコール講習会があります。詳しくは<A HREF="form/">こちら</A>。</li>
+								<li><B class="general">【一般の皆様へ】</B>実行委員会公式LINEを開設しました！<BR><IMG src="img/lineqr.jpg" alt="七夕祭実行委員会公式LINEアカウント" width="100px"></li>
+								<li><B class="general">【一般の皆様へ】</B>第30回七夕祭まであと <SPAN id="result1" style="font-weight: bold;"></SPAN></li>
+								<li><B class="general">【一般の皆様へ】</B>令和元年になりました！</li>
+							</ul>
+						</div>
+						<div class="twarea">
+							<H2>Official Twitter</H2>
+							<div class="tw">
+							<a class="twitter-timeline" data-width="100%" data-height="400" href="https://twitter.com/tanabata30th?ref_src=twsrc%5Etfw">Tweets by tanabata30th</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</div>
+						</div>
+					</div>
+					<div class="footerarea">
+						<P style="margin-bottom: 1.0em;">&copy 2019 慶應義塾大学湘南藤沢キャンパス 第30回七夕祭実行委員会</p>
+					</div>
+				</div>
+			</DIV>
+		<!-- END -->
+	</BODY>
+</HTML>
