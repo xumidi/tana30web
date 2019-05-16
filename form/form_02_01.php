@@ -288,10 +288,10 @@
 		<INPUT style="display: none;" name="formtype[]" value="form0201">
 		<div>
 			<DIV class="description">
+				以下をダウンロードのうえ、記入例を参考に必要事項を記入し、ファイル登録によって提出してください。
 				<ul>
-					<li><A HREF="documents/shinsei_and_chousa.xlsx">各種申請書･調査書</A></LI>
-					<li><A HREF="documents/shinsei_and_chousa_example.xlsx">各種申請書･調査書 記入例</A></LI>
-				</UL>
+					<li><A HREF="documents/shinsei_and_chousa.xlsx">各種申請書・調査書 (XLSX形式/約340kB)</A></li>
+					<li><A HREF="documents/shinsei_and_chousa_example.xlsx">各種申請書・調査書 記入例 (XLSX形式/約340kB)</A></li>				</UL>
 			</DIV>
 			<DIV class="bigsection">
 				<DIV class="smallsection">
