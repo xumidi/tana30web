@@ -310,11 +310,15 @@
 				</DIV>
 				<DIV class="smallsection">
 					<SMALLSECTION-TITLE>担当者メールアドレス <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
-					<INPUT name="food_tanto_mail[]" type="tel">
+					<INPUT name="food_tanto_mail[]" type="mail">
 				</DIV>
 				<DIV class="smallsection">
-					<SMALLSECTION-TITLE>ファイル登録 (PDF形式) <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
-					<INPUT name="food_file" type="file" accept="application/pdf">
+					<SMALLSECTION-TITLE>紹介文/説明文 <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
+					<TEXTAREA name="food_tanto_mail[]" style="width: 100%;" rows="10"></TEXTAREA>
+				</DIV>
+				<DIV class="smallsection">
+					<SMALLSECTION-TITLE>アイコン画像 (PNG/JPEG形式) <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
+					<INPUT name="food_file" type="file" accept=".jpg.jpeg.png">
 				</DIV>
 			</DIV>
 			<DIV class="description">

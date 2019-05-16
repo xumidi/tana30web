@@ -310,7 +310,7 @@
 				</DIV>
 				<DIV class="smallsection">
 					<SMALLSECTION-TITLE>担当者メールアドレス <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
-					<INPUT name="food_tanto_mail[]" type="tel">
+					<INPUT name="food_tanto_mail[]" type="mail">
 				</DIV>
 				<DIV class="smallsection">
 					<SMALLSECTION-TITLE>ファイル登録 (PDF形式) <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>

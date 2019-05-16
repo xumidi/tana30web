@@ -305,7 +305,7 @@
 				</DIV>
 				<DIV class="smallsection">
 					<SMALLSECTION-TITLE>担当者メールアドレス <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
-					<INPUT name="food_tanto_mail[]" type="tel">
+					<INPUT name="food_tanto_mail[]" type="mail">
 				</DIV>
 				<DIV class="smallsection">
 					<SMALLSECTION-TITLE>振込人名義 <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
