@@ -288,7 +288,7 @@
 		<INPUT style="display: none;" name="formtype[]" value="form0204">
 		<div>
 			<DIV class="description">
-				###ここに注意書き###
+				<IMG src="img/furikomi_chuui.png">
 			</DIV>
 			<DIV class="bigsection">
 				<DIV class="smallsection">
