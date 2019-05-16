@@ -193,7 +193,7 @@
 				font-size:1.1em;
 			}
 
-			.bigsection input:not([type="checkbox"]):not([type="radio"]):not([type="time"]){
+			.bigsection input:not([type="checkbox"]):not([type="radio"]):not([type="datetime-local"]){
 				width:100%;
 			}
 			select{
@@ -212,6 +212,10 @@
 			}
 			div.description{
 				margin-bottom:1.3em;
+			}
+			div.description img{
+				margin-bottom:1.3em;
+				width:60%;
 			}
 			label{
 				margin-right:1.0em;
@@ -288,7 +292,9 @@
 		<INPUT style="display: none;" name="formtype[]" value="form0204">
 		<div>
 			<DIV class="description">
-				<IMG src="img/furikomi_chuui.png">
+				<IMG src="img/furikomi_chuui01.png"><BR>
+				<IMG src="img/furikomi_chuui02.png"><BR>
+				<IMG src="img/furikomi_chuui03.png"><BR>
 			</DIV>
 			<DIV class="bigsection">
 				<DIV class="smallsection">
@@ -316,8 +322,8 @@
 					<INPUT name="kingaku[]" type="number">
 				</DIV>
 				<DIV class="smallsection">
-					<SMALLSECTION-TITLE>振込時間 <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
-					<INPUT name="jikan[]" type="time">※正確な時間を記入してください。
+					<SMALLSECTION-TITLE>振込日時 <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
+					<INPUT name="jikan[]" type="datetime-local">※正確な時間を記入してください。
 				</DIV>
 			</DIV>
 			<DIV class="description">

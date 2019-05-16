@@ -191,7 +191,7 @@
 			}else if($_POST["formtype"][0]=="form0202"){//身分証明書
 			
 					//元ファイル名の先頭にアップロード日時を加える
-					$newfilename = "formfood_".date("YmdHis").".xlsx";
+					$newfilename = "formfood_".date("YmdHis").".pdf";
 					//ファイルの保存先
 					$upload = $grflps."/".$newfilename;
 					//サイズ
@@ -217,7 +217,7 @@
 			}else if($_POST["formtype"][0]=="form0203"){//パンフレット掲載用紹介文・アイコン画像
 			
 					//元ファイル名の先頭にアップロード日時を加える
-					$newfilename = "formfood_".date("YmdHis").".xlsx";
+					$newfilename = "formfood_".date("YmdHis").".".substr($_FILES['food_file']['name'],-4,4);
 					//ファイルの保存先
 					$upload = $grflps."/".$newfilename;
 					//サイズ
@@ -228,9 +228,7 @@
 							mb_internal_encoding("UTF-8");
 							if(mb_send_mail($_POST["food_tanto_mail"][0],"パンフレット掲載用紹介文・アイコン画像受付完了のお知らせ",$_POST["groupname"][0]."代表者、七夕祭担当者様。\r\n第30回七夕祭実行委員会です。\r\n「パンフレット掲載用紹介文・アイコン画像」の提出を確認いたしました。\r\n\r\n参加申し込みは以上となります。ありがとうございました。\r\n\r\n============================================\r\nこのメールは自動送信です。\r\nお心当たりのない方は、他の方が誤ってあなたのメールアドレスを入力した可能性があります。その場合はお手数をおかけいたしますが、下記アドレスまでご連絡ください。\r\n\r\n七夕祭実行委員会お問い合わせメーリングリスト\r\ntana30th_info@googlegroups.com\r\n============================================",$headers)){
 								print("<div>パンフレット掲載用紹介文・アイコン画像の提出を受け付けました。</div>");
-								setcookie('groupname', '', time() - 1800);
-								setcookie('doui', '', time() - 1800);
-								setcookie('alldone', 'true', time()+ 2592000);
+								setcookie('form0203', 'true', time()+ 2592000);
 							}else{
 								print("<div>送信に失敗しました。お手数ですがもう一度お試しください。</div>");
 							}
