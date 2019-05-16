@@ -27,7 +27,12 @@
 				location.href=location.href;
 			}
 			function restart(){
-				document.cookie="alldone=true; max-age=0";
+				document.cookie="form0201=true; max-age=0";
+				document.cookie="form0202=true; max-age=0";
+				document.cookie="form0203=true; max-age=0";
+				document.cookie="form0204=true; max-age=0";
+				document.cookie="groupname=true; max-age=0";
+				document.cookie="groupno=true; max-age=0";
 				location.href=location.href;
 			}
 		</script>
@@ -203,6 +208,12 @@
 				<div>4. <A HREF="form_02_04.php">振込完了報告</A><?php
 				if(isset($_COOKIE["form0204"])){print(" - 提出済");}
 				?></div>
+				<?php
+					if(isset($_COOKIE["form0201"]) && isset($_COOKIE["form0202"]) && isset($_COOKIE["form0203"]) &&isset($_COOKIE["form0204"])){
+						print('<HR><div>全項目の入力が完了しています。<A href="javascript:restart()">別の団体として再度登録を行う</A></div>');
+					}
+					
+				?>
 				<!--
 				<?php
 					if(isset($_COOKIE["groupname"])){

@@ -181,6 +181,11 @@
 				.bigsection{
 					width:100% !important;
 				}
+				
+				div.description img{
+					margin-bottom:1.3em;
+					width:100% !important;
+				}
 			}
 			.bigsection{
 				background-color:#ededed;

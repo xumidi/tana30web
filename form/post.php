@@ -165,7 +165,7 @@
 			}else if($_POST["formtype"][0]=="form0201"){//エクセル
 			
 					//元ファイル名の先頭にアップロード日時を加える
-					$newfilename = "formfood_".date("YmdHis").".xlsx";
+					$newfilename = "form0201_".date("YmdHis").".xlsx";
 					//ファイルの保存先
 					$upload = $grflps."/".$newfilename;
 					//サイズ
@@ -191,7 +191,7 @@
 			}else if($_POST["formtype"][0]=="form0202"){//身分証明書
 			
 					//元ファイル名の先頭にアップロード日時を加える
-					$newfilename = "formfood_".date("YmdHis").".pdf";
+					$newfilename = "form0202_".date("YmdHis").".pdf";
 					//ファイルの保存先
 					$upload = $grflps."/".$newfilename;
 					//サイズ
@@ -217,7 +217,7 @@
 			}else if($_POST["formtype"][0]=="form0203"){//パンフレット掲載用紹介文・アイコン画像
 			
 					//元ファイル名の先頭にアップロード日時を加える
-					$newfilename = "formfood_".date("YmdHis").".".substr($_FILES['food_file']['name'],-4,4);
+					$newfilename = "form0203_".date("YmdHis").".".substr($_FILES['food_file']['name'],-4,4);
 					//ファイルの保存先
 					$upload = $grflps."/".$newfilename;
 					//サイズ
