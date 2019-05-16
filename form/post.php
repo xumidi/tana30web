@@ -259,7 +259,7 @@
 			}
 		?>
 		<div>
-			<button onclick="location.href='http://tanabata.sfc.keio.ac.jp/form/form_top.php'">参加申込システムトップに戻る</button>
+			<button onclick="location.href='http://tanabata.sfc.keio.ac.jp/form/form_02_top.php'">参加申込システムトップに戻る</button>
 		</div>
 	</DIV>
 	</body>
