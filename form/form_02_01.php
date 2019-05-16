@@ -288,7 +288,10 @@
 		<INPUT style="display: none;" name="formtype[]" value="form0201">
 		<div>
 			<DIV class="description">
-				
+				<ul>
+					<li><A HREF="documents/shinsei_and_chousa.xlsx">各種申請書･調査書</A></LI>
+					<li><A HREF="documents/shinsei_and_chousa_example.xlsx">各種申請書･調査書 記入例</A></LI>
+				</UL>
 			</DIV>
 			<DIV class="bigsection">
 				<DIV class="smallsection">
