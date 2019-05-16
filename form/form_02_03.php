@@ -323,7 +323,7 @@
 				</DIV>
 				<DIV class="smallsection">
 					<SMALLSECTION-TITLE>ステージ企画 アイコン画像 (PNG/JPEG形式)</SMALLSECTION-TITLE>
-					<INPUT name="food_file" type="file" accept=".jpg.jpeg.png">
+					<INPUT name="food_file" type="file" accept=".jpg,.jpeg,.png">
 				</DIV>
 			</DIV>
 			<DIV class="description">
