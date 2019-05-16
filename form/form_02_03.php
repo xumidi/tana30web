@@ -288,6 +288,9 @@
 		<INPUT style="display: none;" name="formtype[]" value="form0203">
 		<div>
 			<DIV class="description">
+				パンフレットに企画の紹介文を掲載いたします。<BR>
+				指定された字数以内で紹介文をご提出ください。<BR>
+				なお同一団体で複数の企画に参加される団体は、参加される企画の欄に、それぞれ紹介文をご記入ください。
 			</DIV>
 			<DIV class="bigsection">
 				<DIV class="smallsection">
