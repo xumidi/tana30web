@@ -221,7 +221,7 @@
 					//ファイルの保存先
 					$upload = $grflps."/".$newfilename;
 					//サイズ
-					if(strtoupper(substr($_FILES['food_file']['name'],-3,3))=="PDF"){
+					if(strtoupper(substr($_FILES['food_file']['name'],-3,3))=="PNG" || strtoupper(substr($_FILES['food_file']['name'],-3,3))=="JPG" || strtoupper(substr($_FILES['food_file']['name'],-4,4))=="JPEG"){
 						//アップロードが正しく完了したかチェック
 						if(move_uploaded_file($_FILES['food_file']['tmp_name'], $upload)){
 							mb_language("Japanese");

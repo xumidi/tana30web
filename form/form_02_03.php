@@ -313,19 +313,19 @@
 					<INPUT name="food_tanto_mail[]" type="mail">
 				</DIV>
 				<DIV class="smallsection">
-					<SMALLSECTION-TITLE>模擬店/屋外企画 紹介文/説明文(20文字以内) <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
+					<SMALLSECTION-TITLE>模擬店/屋外企画 紹介文/説明文(20文字以内)</SMALLSECTION-TITLE>
 					<TEXTAREA name="mogi_description[]" style="width: 100%;" rows="10"></TEXTAREA>
 				</DIV>
 				<DIV class="smallsection">
-					<SMALLSECTION-TITLE>教室企画 紹介文/説明文(40文字以内) <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
+					<SMALLSECTION-TITLE>教室企画 紹介文/説明文(40文字以内)</SMALLSECTION-TITLE>
 					<TEXTAREA name="classroom_description[]" style="width: 100%;" rows="10"></TEXTAREA>
 				</DIV>
 				<DIV class="smallsection">
-					<SMALLSECTION-TITLE>ステージ企画 紹介文/説明文(40～60文字) <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
+					<SMALLSECTION-TITLE>ステージ企画 紹介文/説明文(40～60文字)</SMALLSECTION-TITLE>
 					<TEXTAREA name="stage_description[]" style="width: 100%;" rows="10"></TEXTAREA>
 				</DIV>
 				<DIV class="smallsection">
-					<SMALLSECTION-TITLE>ステージ企画 アイコン画像 (PNG/JPEG形式) <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
+					<SMALLSECTION-TITLE>ステージ企画 アイコン画像 (PNG/JPEG形式)</SMALLSECTION-TITLE>
 					<INPUT name="food_file" type="file" accept=".jpg.jpeg.png">
 				</DIV>
 			</DIV>
