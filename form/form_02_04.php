@@ -20,7 +20,7 @@
 				}
 			}
 			function check(){
-				if(document.getElementsByName("groupname[]")[0].value!="" && document.getElementsByName("groupno[]")[0].value!="" && document.getElementsByName("food_file")[0].value!=""){
+				if(document.getElementsByName("groupname[]")[0].value!="" && document.getElementsByName("groupno[]")[0].value!="" && document.getElementsByName("kouzameigi[]")[0].value!="" && document.getElementsByName("kingaku[]")[0].value!="" && document.getElementsByName("jikan[]")[0].value!=""){
 					window.removeEventListener('beforeunload', unloaded, false);
 					return true;
 				}else{
