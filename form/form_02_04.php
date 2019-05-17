@@ -328,7 +328,7 @@
 				</DIV>
 				<DIV class="smallsection">
 					<SMALLSECTION-TITLE>振込日時 <small style="color: #ff0000;">[必須]</small></SMALLSECTION-TITLE>
-					<INPUT name="jikan[]" type="datetime-local">※正確な時間を記入してください。
+					<INPUT name="jikan[]" type="datetime-local" value="2019-05-15T18:10">※正確な時間を記入してください。
 				</DIV>
 			</DIV>
 			<DIV class="description">
