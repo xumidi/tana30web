@@ -88,12 +88,16 @@
 
 			/* ここからメイン */
 			.top{
-				width:1100px;
+				width:100%;
 				margin:9.0em auto 0;
 				animation: fadeIn 2s ease 0s 1 normal;
 				color:#ffffff;
 				text-align:center;
 				z-index:2;
+			}
+			.top_top{
+				width:1100px;
+				margin:0 auto;
 			}
 			.top img:nth-child(1){
 				width:100%;
@@ -152,6 +156,10 @@
 			}
 			.news p:nth-child(2){
 				font-weight: bold;
+			}
+			.top_down{
+				width:1100px;
+				margin:0 auto;
 			}
 			.articlesarea{
 				transition: all 300ms 0s ease;
@@ -214,8 +222,14 @@
 				.top{
 					width:90%;
 				}
+				.top_top{
+					width:100%;
+				}
 				img.logo{
 					width: 60%;
+				}
+				.top_down{
+					width:100%;
 				}
 				.articlesarea{
 					padding-left: 0.5em;
@@ -249,6 +263,9 @@
 					transform:none;
 					opacity:1;
 					margin-top:5.0em;
+				}
+				.top_top{
+					width:100%;
 				}
 				@keyframes fadeIn {
 					0% {
@@ -287,6 +304,10 @@
 				.news,.info{
 					margin-left: 0;
 					margin-right: 0;
+				}
+				
+				.top_down{
+					width:100%;
 				}
 				.articlesarea{
 					margin-top:4.0em;
@@ -397,6 +418,113 @@
 			b.general{
 				color:#006f0c;
 			}
+			.bgim{
+				position: fixed;
+				width:100%;
+				height:100%;
+				top:0;
+				left:0;
+				z-index:-100;
+				background-size: cover;
+				transition:300ms all 0s ease;
+			}
+			#bg01{
+				animation: slide1 15s ease 0s infinite;
+			}
+			#bg02{
+				animation: slide2 15s ease 0s infinite;
+			}
+			#bg03{
+				animation: slide3 15s ease 0s infinite;
+			}
+			@keyframes slide1{
+				0%{
+					opacity:1;
+				}
+				28%{
+					opacity:1;
+				}
+				33%{
+					opacity:1;
+				}
+				38%{
+					opacity:0;
+				}
+				61%{
+					opacity:0;
+				}
+				66%{
+					opacity:0;
+				}
+				71%{
+					opacity:0;
+				}
+				95%{
+					opacity:0;
+				}
+				100%{
+					opacity:1;
+				}
+			}
+			@keyframes slide2{
+				0%{
+					opacity:0;
+				}
+				28%{
+					opacity:0;
+				}
+				33%{
+					opacity:1;
+				}
+				38%{
+					opacity:1;
+				}
+				61%{
+					opacity:1;
+				}
+				66%{
+					opacity:1;
+				}
+				71%{
+					opacity:0;
+				}
+				95%{
+					opacity:0;
+				}
+				100%{
+					opacity:0;
+				}
+				
+			}
+			@keyframes slide3{
+				0%{
+					opacity:0;
+				}
+				28%{
+					opacity:0;
+				}
+				33%{
+					opacity:0;
+				}
+				38%{
+					opacity:0;
+				}
+				61%{
+					opacity:0;
+				}
+				66%{
+					opacity:1;
+				}
+				71%{
+					opacity:1;
+				}
+				95%{
+					opacity:1;
+				}
+				100%{
+					opacity:0;
+				}
+			}
 		</STYLE>
 	</HEAD>
 	<BODY>
@@ -419,66 +547,73 @@
 			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/kyousan.html">ご協賛のお願い</A>
 			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/contact.html">お問い合わせ</A>
 		</DIV>
-		<DIV style="position: fixed;width:100%;height:100%;top:0;left:0;background-image:url(img/hanabi1.jpg);z-index:-100;background-size: cover;"></DIV>
+		<DIV class="bgim" style="background-color: #000000;"></DIV>
+		<DIV class="bgim" style="background-image:url(img/bg_1.jpg);" id="bg01"></DIV>
+		<DIV class="bgim" style="background-image:url(img/bg_2.jpg);filter: brightness(50%); contrast(115%);" id="bg02"></DIV>
+		<DIV class="bgim" style="background-image:url(img/bg_3.jpg);filter: brightness(50%) contrast(125%);" id="bg03"></DIV>
 			<DIV class="top" id="toptitle">
-				<P class="titlelogo"><IMG src="img/title.png" alt="第30回 慶應義塾大学七夕祭"></P>
-				<P style="margin-bottom: 1.0em;">◇開催日◇<BR>
-				<STRONG>2019年(令和元年)7月6日(土)</STRONG><BR>
-				@慶應義塾大学 湘南藤沢キャンパス</p>
-				<DIV class="mainmenu" id="mainmenu">
-					<A class="menuelem" href="about.html">七夕祭について</A>
-					<A class="menuelem" href="access.html">アクセス</A>
-					<A class="menuelem" href="announce.html">注意事項</A>
-				</DIV>
-				<DIV class="mainmenu" id="mainmenu2">
-					<A class="menuelem" href="tmu/">実行委員の活動</A>
-					<A class="menuelem" href="form/">参加団体の方</A>
-					<A class="menuelem" href="kyousan.html">ご協賛のお願い</A>
-					<A class="menuelem" href="contact.html">お問い合わせ</A>
-				</DIV>
-				<DIV class="info">
-					<p><B style="color: #f00;">【重要】</B></P>
-					<P>今年度の喫煙所の設置はなくなりました。詳しくは<A href="announce.html">こちら</A>をご確認ください。</p>
-				</DIV>
-				<DIV class="news">
-					<p>What's New?</p>
-					<p>2019(令和元年)/05/09</p>
-					<p><A HREF="form">講習会の予定</A>を更新いたしました。参加団体の方はご確認をお願いします。</p>
-					<p><A HREF="tmu">実行委員会の活動</A>を更新いたしました。</p>
-				</DIV>
-				<DIV style="margin-top: 3.0em;">
-		          <!--Twitter-->
-		              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		          <!--Facebook-->
-		              <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftanabata.sfc.keio.ac.jp%2Faccess.html&layout=button&size=small&mobile_iframe=true&width=61&height=20&appId" width="61" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-		          <!--LINE-->
-		                  <div class="line-it-button" data-lang="ja" data-type="share-a" data-url="http://tanabata.sfc.keio.ac.jp/access.html" style="display: none;"></div>
-		                   <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
-		          <!--はてなブックマーク-->
-		              <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" data-hatena-bookmark-height="20" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+				<DIV class="top_top">
+					<P class="titlelogo"><IMG src="img/title.png" alt="第30回 慶應義塾大学七夕祭"></P>
+					<P style="margin-bottom: 1.0em;">◇開催日◇<BR>
+					<STRONG>2019年(令和元年)7月6日(土)</STRONG><BR>
+					@慶應義塾大学 湘南藤沢キャンパス</p>
+					<DIV class="mainmenu" id="mainmenu">
+						<A class="menuelem" href="about.html">七夕祭について</A>
+						<A class="menuelem" href="access.html">アクセス</A>
+						<A class="menuelem" href="announce.html">注意事項</A>
+					</DIV>
+					<DIV class="mainmenu" id="mainmenu2">
+						<A class="menuelem" href="tmu/">実行委員の活動</A>
+						<A class="menuelem" href="form/">参加団体の方</A>
+						<A class="menuelem" href="kyousan.html">ご協賛のお願い</A>
+						<A class="menuelem" href="contact.html">お問い合わせ</A>
+					</DIV>
+					<DIV class="info">
+						<p><B style="color: #f00;">【重要】</B></P>
+						<P>今年度の喫煙所の設置はなくなりました。詳しくは<A href="announce.html">こちら</A>をご確認ください。</p>
+					</DIV>
+					<DIV class="news">
+						<p>What's New?</p>
+						<p>2019(令和元年)/05/09</p>
+						<p><A HREF="form">講習会の予定</A>を更新いたしました。参加団体の方はご確認をお願いします。</p>
+						<p><A HREF="tmu">実行委員会の活動</A>を更新いたしました。</p>
+					</DIV>
+					<DIV style="margin-top: 3.0em;">
+			          <!--Twitter-->
+			              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			          <!--Facebook-->
+			              <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftanabata.sfc.keio.ac.jp%2Faccess.html&layout=button&size=small&mobile_iframe=true&width=61&height=20&appId" width="61" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			          <!--LINE-->
+			                  <div class="line-it-button" data-lang="ja" data-type="share-a" data-url="http://tanabata.sfc.keio.ac.jp/access.html" style="display: none;"></div>
+			                   <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+			          <!--はてなブックマーク-->
+			              <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" data-hatena-bookmark-height="20" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+					</div>
 				</div>
-				<div class="articlesarea">
-					<div class="article-1">
-						<div class="newsarticlearea">
-							<H2>Topics</H2>
-							<ul>
-								<li><B class="general">【一般の皆様へ】</B><B style="color: #f00;">【重要】</B>今年度の喫煙所の設置はなくなりました。詳しくは<A href="announce.html">こちら</A>からご確認をお願いします。</li>
+				<div class="top_down">
+					<div class="articlesarea">
+						<div class="article-1">
+							<div class="newsarticlearea">
+								<H2>Topics</H2>
+								<ul>
+									<li><B class="general">【一般の皆様へ】</B><B style="color: #f00;">【重要】</B>今年度の喫煙所の設置はなくなりました。詳しくは<A href="announce.html">こちら</A>からご確認をお願いします。</li>
 
-								<li><B class="sankadantai">【参加団体の方へ】</B>6月26日(水)に衛生講習会とアルコール講習会があります。詳しくは<A HREF="form/">こちら</A>。</li>
-								<li><B class="general">【一般の皆様へ】</B>実行委員会公式LINEを開設しました！<BR><IMG src="img/lineqr.jpg" alt="七夕祭実行委員会公式LINEアカウント" width="100px"></li>
-								<li><B class="general">【一般の皆様へ】</B>第30回七夕祭まであと <SPAN id="result1" style="font-weight: bold;"></SPAN></li>
-								<li><B class="general">【一般の皆様へ】</B>令和元年になりました！</li>
-							</ul>
-						</div>
-						<div class="twarea">
-							<H2>Official Twitter</H2>
-							<div class="tw">
-							<a class="twitter-timeline" data-width="100%" data-height="400" href="https://twitter.com/tanabatasai_19?ref_src=twsrc%5Etfw">Tweets by tanabata30th</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+									<li><B class="sankadantai">【参加団体の方へ】</B>6月26日(水)に衛生講習会とアルコール講習会があります。詳しくは<A HREF="form/">こちら</A>。</li>
+									<li><B class="general">【一般の皆様へ】</B>実行委員会公式LINEを開設しました！<BR><IMG src="img/lineqr.jpg" alt="七夕祭実行委員会公式LINEアカウント" width="100px"></li>
+									<li><B class="general">【一般の皆様へ】</B>第30回七夕祭まであと <SPAN id="result1" style="font-weight: bold;"></SPAN></li>
+									<li><B class="general">【一般の皆様へ】</B>令和元年になりました！</li>
+								</ul>
+							</div>
+							<div class="twarea">
+								<H2>Official Twitter</H2>
+								<div class="tw">
+								<a class="twitter-timeline" data-width="100%" data-height="400" href="https://twitter.com/tanabatasai_19?ref_src=twsrc%5Etfw">Tweets by tanabata30th</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="footerarea">
-						<P style="margin-bottom: 1.0em;">&copy 2019 慶應義塾大学湘南藤沢キャンパス 第30回七夕祭実行委員会</p>
+						<div class="footerarea">
+							<P style="margin-bottom: 1.0em;">&copy 2019 慶應義塾大学湘南藤沢キャンパス 第30回七夕祭実行委員会</p>
+						</div>
 					</div>
 				</div>
 			</DIV>
