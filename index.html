@@ -139,6 +139,37 @@
 			#mainmenu .menuelem:hover, #mainmenu2 .menuelem:hover{
 				transform: scale(1.1,1.1);
 			}
+			#sanjuso{
+				z-index: 2000;
+				background-color:rgb(227,228,232);
+				text-align:center;
+				transition: 300ms all 0s ease;
+				animation: logoshow 1000ms ease 0s 1 forwards;
+				opacity:1 !important;
+			}
+			@keyframes logoshow{
+				0%{
+					opacity:1;
+				}
+				80%{
+					opacity:1;
+				}
+				99%{
+					opacity:0;
+				}
+				100%{
+					opacity:0;
+					display:none;
+					visibility:hidden;
+				}
+			}
+			#sanjuso img{
+				position: fixed;
+				left:50%;
+				top:50%;
+				transform:translate(-50%,-50%);
+				width:30%;
+			}
 			.info,.news{
 				background-color: rgba(255,255,255,0.6);
 				border-radius: 10px;
@@ -240,37 +271,6 @@
 					margin:0;
 					margin-bottom:0.1em;
 				}
-			}
-			#sanjuso{
-				z-index: 2000;
-				background-color:rgb(227,228,232);
-				text-align:center;
-				transition: 300ms all 0s ease;
-				animation: logoshow 1000ms ease 0s 1 forwards;
-				opacity:1;
-			}
-			@keyframes logoshow{
-				0%{
-					opacity:1;
-				}
-				80%{
-					opacity:1;
-				}
-				99%{
-					opacity:0;
-				}
-				100%{
-					opacity:0;
-					display:none;
-					visibility:hidden;
-				}
-			}
-			#sanjuso img{
-				position: fixed;
-				left:50%;
-				top:50%;
-				transform:translate(-50%,-50%);
-				width:30%;
 			}
 			/* スマホ */
 			@media screen and (max-width: 768px){
