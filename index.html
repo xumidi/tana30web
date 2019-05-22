@@ -90,7 +90,7 @@
 			.top{
 				width:100%;
 				margin:9.0em auto 0;
-				animation: fadeIn 2s ease 0s 1 normal;
+				animation: fadeIn 2s ease 300ms 1 normal;
 				color:#ffffff;
 				text-align:center;
 				z-index:2;
@@ -241,8 +241,41 @@
 					margin-bottom:0.1em;
 				}
 			}
+			#sanjuso{
+				z-index: 2000;
+				background-color:rgb(227,228,232);
+				text-align:center;
+				transition: 300ms all 0s ease;
+				animation: logoshow 1000ms ease 0s 1 forwards;
+			}
+			@keyframes logoshow{
+				0%{
+					opacity:1;
+				}
+				80%{
+					opacity:1;
+				}
+				99%{
+					opacity:0;
+				}
+				100%{
+					opacity:0;
+					display:none;
+					visibility:hidden;
+				}
+			}
+			#sanjuso img{
+				position: fixed;
+				left:50%;
+				top:50%;
+				transform:translate(-50%,-50%);
+				width:30%;
+			}
 			/* スマホ */
 			@media screen and (max-width: 768px){
+				#sanjuso img{
+					width:40%;
+				}
 				#sidemenu{
 					padding-left:1em !important;
 					padding-right:1em !important;
@@ -617,6 +650,7 @@
 					</div>
 				</div>
 			</DIV>
+			<DIV class="bgim" id="sanjuso"><IMG src="img/logo2.png"></DIV>
 		<!-- END -->
 	</BODY>
 </HTML>
