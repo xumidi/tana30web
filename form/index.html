@@ -35,18 +35,18 @@
 			.buttons img:hover{
 				filter: brightness(110%);
 			}
-			ul{
+			.buttons ul{
 				list-style: none;
 				margin-left:0;
 				padding-left:0;
 				display:flex;
 			}
-			li{
+			.buttons li{
 				margin:1.0em;
 			}
 			
 			@media screen and (max-width: 768px){
-				ul{
+				.buttons ul{
 					display:block;
 					margin-top:2.0em;
 				}
@@ -132,12 +132,18 @@
 		
 		<DIV class="main">
 			<H1>参加団体の方向けページ</H1>
+			<DIV class="section mokuji">
+				<ul>
+					<li><A href="#form">書類・手続き</A></li>
+					<li><A href="#schedule">今後の予定</A></li>
+				</ul>
+			</DIV>
 			<DIV class="section">
 				七夕祭参加団体向けLINEアカウントです！参加団体の皆さん向けの情報を発信いたします！<BR>
 				<IMG src="img/lineqr.png" alt="七夕祭参加団体向けLINEアカウント" width="100px">
 				
 			</DIV>
-			<DIV class="section">
+			<DIV class="section"><A id="form" class="anc"></A>
 				<H2>書類や手続等</H2>
 				<P>七夕祭に参加いただける方向けのツール・文書にはこちらからアクセスできます。総会に参加できなかった場合はお問い合わせをお願いします。</P>
 				<div class="buttons">
@@ -148,7 +154,7 @@
 					</ul>
 				</div>
 			</DIV>
-			<DIV class="section">
+			<DIV class="section"><A id="schedule" class="anc"></A>
 				<H2>今後の予定</H2>
 					<TABLE>
 						<TR>
