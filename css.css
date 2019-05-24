@@ -16,8 +16,12 @@ body{
 	margin-top:3.5em;
 	background-color:#e3e4e8;
 }
-a:link{color: #0000FF;}
-a:visited{color: #0000FF;}
+a:link{
+	color: #0000FF;
+}
+a:visited{
+	color: #0000FF;
+}
 a:hover{
 	color: #FF0000;
 	text-decoration:none;
