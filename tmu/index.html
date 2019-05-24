@@ -139,6 +139,13 @@
 			.flexbox{
 				display:flex;
 			}
+			.ikemen{
+				order:2;
+				margin-left:1.0em;
+			}
+			.ikemen img{
+				height: 300px;
+			}
 			.kamoikemen{
 				display: inline-block;
 				position: fixed;
@@ -167,9 +174,6 @@
 			}
 			.kamoikemen:hover > .a{
 				opacity:1;
-			}
-			.ikemen{
-				height: 300px;
 			}
 			@media screen and (max-width: 768px){
 				dialog{
@@ -206,15 +210,22 @@
 				.kanbu{
 					width:100%;
 				}
-				.flexbox{
-					display:block;
-				}
 				.kamoikemen{
 					display:none;
 				}
-				.ikemen{
+				.flexbox{
+					display:block;
+				}
+				.flexbox div:last-child{
 					width:100%;
+				}
+				.ikemen{
+					width:20%;
 					height: auto;
+				}
+				.ikemen img{
+					width:100%;
+					height:auto;
 				}
 			}
 			.head_menu a:nth-child(5){
@@ -302,11 +313,17 @@
 				<DIV class="section kamoike"><A id="kamoikemen" class="anc"></A>
 					<H2>七夕祭公式キャラクター「鴨イケメン」</H2>
 					<DIV class="flexbox">
-						<IMG src="kamoikemen.png" class="ikemen" alt="鴨イケメン">
-						<DIV>
-							七夕祭のキャラクターだよ。<BR>
-							
+						<DIV class="ikemen">
+							<IMG src="kamoikemen.png" alt="鴨イケメン">
 						</DIV>
+						<DIV>
+							<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">七夕祭公式キャラクター「鴨イケメン」(右)が長後まつりにて華々しくデビューしました！ <a href="https://t.co/fNSxaSPYSi">pic.twitter.com/fNSxaSPYSi</a></p>&mdash; 第30回七夕祭実行委員会 (@tanabatasai_19) <a href="https://twitter.com/tanabatasai_19/status/1129971279346319360?ref_src=twsrc%5Etfw">2019年5月19日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</DIV>
+					</DIV>
+					<DIV style="">
+						<P>七夕祭のキャラクターだよ。</P>
+						<P>2019年5月18日、長後で行われた「長後まつり」にて、華々しくデビューしたんだ。</P>
 					</DIV>
 				</DIV>
 				<DIV class="section">
