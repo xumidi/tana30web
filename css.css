@@ -78,12 +78,14 @@ h3{
 
 .mokuji ul{
 	list-style: none;
-	border-top: 2px solid #6db26a;
-	border-bottom: 2px solid #6db26a;
+	border-top: 2px dashed #6db26a;
+	border-bottom: 2px dashed #6db26a;
+	margin-top: 1.8em;
+	margin-bottom: 1.8em;
 }
 .mokuji ul li{
 	list-style: none;
-	margin: 1em auto;
+	margin: 0.9em auto;
 }
 .mokuji ul li a{
 	color: #298027;
