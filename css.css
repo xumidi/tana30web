@@ -93,6 +93,11 @@ h3{
 }
 .mokuji ul li a{
 	color: #298027;
+	text-decoration: underline solid #298027;
+	transition: 140ms all 0s ease;
+}
+.mokuji ul li a:hover{
+	text-decoration: underline solid rgba(41,128,39,0);
 }
 
 /* FOOTER */
