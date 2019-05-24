@@ -67,8 +67,13 @@
 			dl{
 				margin-bottom:2.0em;
 			}
-			
+			.mokuji{
+				display:none;
+			}
 			@media screen and (max-width: 1000px){
+				.mokuji{
+					display:block;
+				}
 				.flexbox{
 					display:block;
 				}
@@ -81,6 +86,9 @@
 			
 			}
 			@media screen and (max-width: 768px){
+				.mokuji{
+					display:block;
+				}
 				.flexbox{
 					display:block;
 				}
@@ -176,8 +184,14 @@
 		<DIV class="main">
 			<H1>お問い合わせ</H1>
 			<P><strong>七夕祭に関する取材等の場合は事前に許可が必要です。まずはご連絡ください。事前にご連絡のない取材についてはお受けいたしかねますのでご了承ください。</strong></P>
+			<DIV class="section mokuji">
+				<ul>
+					<li><A href="#address">連絡先/SNS</A></li>
+					<li><A href="#mailform">メールフォーム</A></li>
+				</ul>
+			</DIV>
 			<DIV class="flexbox">
-				<DIV class="sns">
+				<DIV class="sns"><A class="anc" id="address"></A>
 					<H2>連絡先/SNS</H2>
 					<dl>
 						<dt>住所</dt>
