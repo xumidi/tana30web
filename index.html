@@ -364,6 +364,37 @@
 				.top_top{
 					width:100%;
 				}
+				.mainmenu{
+					display:inline;
+				}
+				.top .menuelem{
+					display:inline-block;
+					margin:0.35em 0.7em;
+					width:calc(50% - 1.5em);
+					vertical-align:middle;
+					font-size:4vw;
+				}
+				#mainmenu .menuelem:nth-child(2n+1){
+					margin-right:0.1em;
+				}
+				#mainmenu .menuelem:nth-child(2n){
+					margin-left:0.1em;
+				}
+				#mainmenu2 .menuelem:nth-child(2n){
+					margin-right:0.1em;
+				}
+				#mainmenu2 .menuelem:nth-child(2n+1){
+					margin-left:0.1em;
+				}
+				#mainmenu2 .menuelem:last-child{
+					margin:0.35em 0.7em;
+				}
+				.top .menuelem .lsf{
+					display:block;
+					margin:0;
+					font-size:14vw;
+					margin-bottom:0.3em;
+				}
 				@keyframes fadeIn {
 					0% {
 						opacity: 0;
@@ -381,9 +412,6 @@
 				}
 				#mainmenuarea{
 					opacity:0;
-				}
-				.mainmenu{
-					display:block;
 				}
 				#header{
 					padding:0 !important;
