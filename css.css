@@ -7,6 +7,37 @@ html{
 *, *:before, *:after {
 	box-sizing: border-box;
 }
+@font-face {
+	font-family: 'LigatureSymbols';
+	src: url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot');
+	src: url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+			 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.woff') format('woff'),
+			 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.ttf') format('truetype'),
+			 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.lsf {
+	font-family: 'LigatureSymbols';
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	-ms-text-rendering: optimizeLegibility;
+	-o-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-font-feature-settings: "liga" 1, "dlig" 1;
+	-moz-font-feature-settings: "liga=1, dlig=1";
+	-ms-font-feature-settings: "liga" 1, "dlig" 1;
+	-o-font-feature-settings: "liga" 1, "dlig" 1;
+	font-feature-settings: "liga" 1, "dlig" 1;
+	margin-right:0.5em;
+	font-size:1.3em;
+}
 a.anc{
 	position:relative;
 	top:-4.5em;
@@ -70,6 +101,7 @@ h3{
 	padding:0.5em;
 	background-color:rgba(0,0,0,0.4);
 	transition: 150ms all 0s ease;
+	text-align: center;
 }
 .head a:hover{
 	border-top: solid 5px #d8445a;
