@@ -163,6 +163,9 @@ h3{
 		float:none;
 		margin:auto;
 	}
+	.head a{
+		font-size: 1.5vw;
+	}
 }
 
 /* HEADER */
