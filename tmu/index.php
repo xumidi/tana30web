@@ -1,3 +1,7 @@
+<?php
+	session_start();
+	ini_set('mbstring.internal_encoding' , 'UTF-8');
+?>
 <!DOCTYPE html>
 <html lang="ja">
 	<head>
@@ -21,7 +25,6 @@
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="description" content="SFCで7月6日に開催される慶應唯一の夏祭り、『七夕祭』実行委員会の紹介です。">
 		<link rel="icon" type="image/png" href="http://tanabata.sfc.keio.ac.jp/img/favicon.png" sizes="32x32">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
 		<meta name="theme-color" content="#3ca8a1">
 
@@ -175,6 +178,29 @@
 			.kamoikemen:hover > .a{
 				opacity:1;
 			}
+			
+			
+			.titles, .namesanddays{
+				color: #004b00;
+				font-size:1.2em;
+			}
+			.articles{
+				margin-bottom: 1.7em;
+				background-color:#ebebeb;
+				border-radius: 10px;
+				padding: 0.8em;
+				width:600px;
+				overflow-wrap : break-word;
+				font-size:0.8em;
+			}
+			.articles img{
+				max-width:60%;
+			}
+			.head_menu a:nth-child(6){
+				background-color:#fff;
+				color:#000;
+				border-top: solid 5px #26acc7;
+			}
 			@media screen and (max-width: 1100px){
 				.kamoikemen{
 					display:none;
@@ -231,6 +257,13 @@
 				.ikemen img{
 					width:100%;
 					height:auto;
+				}
+				
+				.articles{
+					width:100%;
+				}
+				.articles img{
+					max-width:100%;
 				}
 			}
 			.head_menu a:nth-child(6){
@@ -293,8 +326,19 @@
 				<DIV class="section"><A id="blogs" class="anc"></A>
 					<H2>実行委員公式ブログ</H2>
 					<DIV class="section">
-						<P>実行委員が更新するブログです！日々の活動はこちらから。</P>
-						<P><A href="blogs/">実行委員公式ブログ</A></P>
+						<P>実行委員が更新するブログです！日々の活動報告などを行っています！</P>
+						<P>↓最新の記事はこちら↓</P>
+						<?php
+							$path="/pub/WWW/tanabata/tmu/blogs/db";
+							foreach(scandir($path) as $file){
+								if($file!="." and $file!=".." and $file!=".htaccess"){
+									$currenta=file_get_contents ($path."/".$file);
+								}
+							}
+							$currenta=mb_convert_encoding($currenta,"utf-8","sjis"); 
+							print($currenta);
+						?>
+						<P>その他の記事<A href="blogs/">>>実行委員公式ブログ</A></P>
 					</DIV>
 				</DIV>
 				<DIV class="section"><A id="firework" class="anc"></A>
@@ -420,7 +464,9 @@
 						<H3>電力隊<A href="javascript:closedialog()" style="float: right;">×</A></H3>
 						<DIV class="dialog_article">
 							<IMG src="96denryoku.png" alt="電力隊 ロゴ" class="logo">
-							<P>当日会場の電気を整備します。</P>
+							<P>電力隊は、出店団体への配電、キャンパス内の電飾の配電を主に行なっております。</P>
+							<P>浮かない仕事ではございますが、これがなければ七夕祭は回らず、また夜に綺麗にもなってくれないでしょう。ライトアップや提灯など目にされたとき、頭の片隅で思い出していただけると幸いです。</P>
+							<P>電力隊長としてできることには限界もありましたが、ご来場の皆様に少しでも七夕祭を楽しんでいただければなによりでございます。</P>
 							<P>ロゴには電力の命であるプラグをデザインしました。</P>
 						</DIV>
 					</DIALOG>
