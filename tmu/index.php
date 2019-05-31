@@ -338,7 +338,8 @@
 							$currenta=mb_convert_encoding($currenta,"utf-8","sjis"); 
 							print($currenta);
 						?>
-						<P>その他の記事<A href="blogs/">>>実行委員公式ブログ</A></P>
+						<P>その他の記事はこちら→<A href="blogs/">>>実行委員公式ブログ</A></P>
+						<P>ちなみに、諸事情あって普通のブログサービスを利用することができず、仕方なく実行委員が1から手作りでブログのプログラムを書きました。</P>
 					</DIV>
 				</DIV>
 				<DIV class="section"><A id="firework" class="anc"></A>
