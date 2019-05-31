@@ -34,7 +34,7 @@
 		<script src="countdown.js"></script>
 		<SCRIPT type="text/javascript">
 		<!--
-		var arpx
+		var arpx=0;
 		var menuclosed=true;
 		window.onload=function(){
 			countdownTimer();
@@ -50,7 +50,23 @@
 				menuclosed=true;
 			}
 		}
-
+		var scr=function(){
+			var y=window.pageYOffset;
+			var j=document.getElementById("headlogo").style;
+			if(y>=arpx){
+				j.opacity=1;
+				j.transform="scale(1,1)";
+			}else{
+				j.opacity=0;
+				j.transform="scale(0.5,0)";
+			}
+		}
+		document.addEventListener('scroll',scr);
+		window.onload=function(){
+			ojc=document.getElementsByClassName("titlelogo")[0];
+			arpx=Math.floor(ojc.getBoundingClientRect().top)-70;
+			scr();
+		}
 
 		-->
 		</SCRIPT>
@@ -250,7 +266,7 @@
 				}
 			}
 			.info,.news{
-				background-color: rgba(255,255,255,0.6);
+				background-color: rgba(255,255,255,0.65);
 				border-radius: 10px;
 				color:#000;
 				padding: 1.0em;
@@ -287,7 +303,7 @@
 			}
 			.newsarticlearea{
 				width:67%;
-				background-color:rgba(70,126,143,0.7);
+				background-color:rgba(70,126,143,0.75);
 				padding:1.8em;
 			}
 			.newsarticlearea ul{
@@ -502,6 +518,10 @@
 			}
 			#header img{
 				height:1.5em;
+				opacity:0;
+				transition:300ms all 0s ease;
+				transform:scale(0.5,0);
+				transform-origin:bottom;
 			}
 			#headmenubutton{
 				position:absolute;
@@ -674,7 +694,7 @@
 			<DIV class="bgim" id="sanjuso"><IMG src="img/logo2.png"></DIV>
 		<!-- START -->
 		<DIV id="header">
-			<A HREF="http://tanabata.sfc.keio.ac.jp"><IMG src="img/title.png" alt="第30回慶應義塾大学七夕祭"></A>
+			<A><IMG src="img/title.png" alt="第30回慶應義塾大学七夕祭" id="headlogo"></A>
 			<DIV id="headmenubutton" onclick="openclosemenu()">
 				<DIV></DIV>
 				<DIV></DIV>
