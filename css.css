@@ -9,11 +9,11 @@ html{
 }
 @font-face {
 	font-family: 'LigatureSymbols';
-	src: url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot');
-	src: url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
-			 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.woff') format('woff'),
-			 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.ttf') format('truetype'),
-			 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+	src: url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot');
+	src: url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+			 url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.woff') format('woff'),
+			 url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.ttf') format('truetype'),
+			 url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

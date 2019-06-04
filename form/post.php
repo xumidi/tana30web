@@ -13,7 +13,7 @@
 				document.cookie="shokuhin=0; max-age=0";
 				document.cookie="doui=0; max-age=0";
 				document.cookie="alldone=true; max-age=40000";
-				location.href="http://tanabata.sfc.keio.ac.jp/form/index.php";
+				location.href="https://tanabata.sfc.keio.ac.jp/form/index.php";
 			}
 		</script>
 		<STYLE type="text/css">
@@ -258,7 +258,7 @@
 			}
 		?>
 		<div>
-			<button onclick="location.href='http://tanabata.sfc.keio.ac.jp/form/form_02_top.php'">参加申込システムトップに戻る</button>
+			<button onclick="location.href='https://tanabata.sfc.keio.ac.jp/form/form_02_top.php'">参加申込システムトップに戻る</button>
 		</div>
 	</DIV>
 	</body>

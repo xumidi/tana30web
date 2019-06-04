@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 	<head>
-		<link rel="icon" type="image/png" href="http://tanabata.sfc.keio.ac.jp/img/favicon.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="https://tanabata.sfc.keio.ac.jp/img/favicon.png" sizes="32x32">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<title>第30回七夕祭 パンフレット掲載用紹介文・アイコン画像提出フォーム</title>
@@ -45,11 +45,11 @@
 			}
 			@font-face {
 				font-family: 'LigatureSymbols';
-				src: url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot');
-				src: url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
-						 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.woff') format('woff'),
-						 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.ttf') format('truetype'),
-						 url('http://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+				src: url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot');
+				src: url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+						 url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.woff') format('woff'),
+						 url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.ttf') format('truetype'),
+						 url('https://tanabata.sfc.keio.ac.jp/fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
 				font-weight: normal;
 				font-style: normal;
 			}
@@ -303,15 +303,15 @@
 			</DIV>
 		</DIV>
 		<DIV id="sidemenu" onclick="openclosemenu()">
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/"><span class="lsf">&#xE072;</span>TOP</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/about.html"><span class="lsf">&#xE08d;</span>七夕祭について</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/access.html"><span class="lsf">&#xE103;</span>アクセス</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/announce.html"><span class="lsf">&#xE034;</span>注意事項</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/booth/"><span class="lsf">&#xE073;</span>企画紹介</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/tmu/"><span class="lsf">&#xE13e;</span>実行委員の活動</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/form/"><span class="lsf">&#xE05c;</span>参加団体の方</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/kyousan.html"><span class="lsf">&#xE014;</span>ご協賛のお願い</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/contact.html"><span class="lsf">&#xE08a;</span>お問い合わせ</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/"><span class="lsf">&#xE072;</span>TOP</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/about.html"><span class="lsf">&#xE08d;</span>七夕祭について</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/access.html"><span class="lsf">&#xE103;</span>アクセス</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/announce.html"><span class="lsf">&#xE034;</span>注意事項</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/booth/"><span class="lsf">&#xE073;</span>企画紹介</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/tmu/"><span class="lsf">&#xE13e;</span>実行委員の活動</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/form/"><span class="lsf">&#xE05c;</span>参加団体の方</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/kyousan.html"><span class="lsf">&#xE014;</span>ご協賛のお願い</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/contact.html"><span class="lsf">&#xE08a;</span>お問い合わせ</A>
 
 		</DIV>
 		<!-- END OF HEADER -->

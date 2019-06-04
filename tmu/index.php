@@ -9,8 +9,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta property="og:title" content="実行委員会の活動 - 第30回七夕祭">
 		<meta property="og:type" content="website">
-		<meta property="og:image" content="http://tanabata.sfc.keio.ac.jp/img/card.png">
-		<meta property="og:url" content="http://tanabata.sfc.keio.ac.jp/">
+		<meta property="og:image" content="https://tanabata.sfc.keio.ac.jp/img/card.png">
+		<meta property="og:url" content="https://tanabata.sfc.keio.ac.jp/">
 		<meta property="og:locate" content="ja_JP">
 		<meta property="og:locale" content="en_US">
 		<meta property="og:street-address" content="遠藤5322 λ19">
@@ -20,17 +20,17 @@
 		<meta property="og:country-name" content="Japan" />
 		<meta name="twitter:site" content="@tanabatasai_19">
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:image" content="http://tanabata.sfc.keio.ac.jp/img/card_twitter.png">
+		<meta name="twitter:image" content="https://tanabata.sfc.keio.ac.jp/img/card_twitter.png">
 		<meta property="fb:admins" content="204536572914412">
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="description" content="SFCで7月6日に開催される慶應唯一の夏祭り、『七夕祭』実行委員会の紹介です。">
-		<link rel="icon" type="image/png" href="http://tanabata.sfc.keio.ac.jp/img/favicon.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="https://tanabata.sfc.keio.ac.jp/img/favicon.png" sizes="32x32">
 		<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
 		<meta name="theme-color" content="#3ca8a1">
 
 		<title>実行委員会の活動 - 第30回七夕祭</title>
-		<link rel="stylesheet" href="http://tanabata.sfc.keio.ac.jp/css.css">
-		<script type="text/javascript" src="http://tanabata.sfc.keio.ac.jp/js.js"></script>
+		<link rel="stylesheet" href="https://tanabata.sfc.keio.ac.jp/css.css">
+		<script type="text/javascript" src="https://tanabata.sfc.keio.ac.jp/js.js"></script>
 		<script type="text/javascript">
 			function opendialog(x){
 				document.getElementById("cover").style.display="block";
@@ -253,7 +253,7 @@
 					width:100%;
 				}
 				.ikemen{
-					width:20%;
+					width:40%;
 					height: auto;
 				}
 				.ikemen img{
@@ -279,21 +279,21 @@
 		<DIV style="" id="cover" onclick="closedialog()"></DIV>
 		<DIV class="head">
 			<DIV class="head_menu">
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/">TOP</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/about.html">七夕祭について</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/access.html">アクセス</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/announce.html">注意事項</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/booth/">企画紹介</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/tmu/">実行委員の活動</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/form/">参加団体の方</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/kyousan.html">ご協賛のお願い</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/contact.html">お問い合わせ</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/">TOP</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/about.html">七夕祭について</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/access.html">アクセス</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/announce.html">注意事項</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/booth/">企画紹介</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/tmu/">実行委員の活動</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/form/">参加団体の方</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/kyousan.html">ご協賛のお願い</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/contact.html">お問い合わせ</A>
 
 			</DIV>
 		</DIV>
 		<!-- HEADER -->
 		<DIV id="header">
-			<A HREF="../"><IMG src="http://tanabata.sfc.keio.ac.jp/img/title.png" alt="慶應義塾大学七夕祭"></A>
+			<A HREF="../"><IMG src="https://tanabata.sfc.keio.ac.jp/img/title.png" alt="慶應義塾大学七夕祭"></A>
 			<DIV id="headmenubutton" onclick="openclosemenu()">
 				<DIV></DIV>
 				<DIV></DIV>
@@ -301,15 +301,15 @@
 			</DIV>
 		</DIV>
 		<DIV id="sidemenu" onclick="openclosemenu()">
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/"><span class="lsf">&#xE072;</span>TOP</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/about.html"><span class="lsf">&#xE08d;</span>七夕祭について</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/access.html"><span class="lsf">&#xE103;</span>アクセス</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/announce.html"><span class="lsf">&#xE034;</span>注意事項</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/booth/"><span class="lsf">&#xE073;</span>企画紹介</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/tmu/"><span class="lsf">&#xE13e;</span>実行委員の活動</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/form/"><span class="lsf">&#xE05c;</span>参加団体の方</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/kyousan.html"><span class="lsf">&#xE014;</span>ご協賛のお願い</A>
-			<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/contact.html"><span class="lsf">&#xE08a;</span>お問い合わせ</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/"><span class="lsf">&#xE072;</span>TOP</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/about.html"><span class="lsf">&#xE08d;</span>七夕祭について</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/access.html"><span class="lsf">&#xE103;</span>アクセス</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/announce.html"><span class="lsf">&#xE034;</span>注意事項</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/booth/"><span class="lsf">&#xE073;</span>企画紹介</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/tmu/"><span class="lsf">&#xE13e;</span>実行委員の活動</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/form/"><span class="lsf">&#xE05c;</span>参加団体の方</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/kyousan.html"><span class="lsf">&#xE014;</span>ご協賛のお願い</A>
+			<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/contact.html"><span class="lsf">&#xE08a;</span>お問い合わせ</A>
 		</DIV>
 		<!-- END OF HEADER -->
 		
@@ -378,6 +378,7 @@
 					<DIV class="flexbox">
 						<DIV class="ikemen">
 							<IMG src="kamoikemen.png" alt="鴨イケメン">
+							<IMG src="kamoikemen_photo.png" alt="鴨イケメン">
 						</DIV>
 						<DIV>
 							<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">七夕祭公式キャラクター「鴨イケメン」(右)が長後まつりにて華々しくデビューしました！ <a href="https://t.co/fNSxaSPYSi">pic.twitter.com/fNSxaSPYSi</a></p>&mdash; 第30回七夕祭実行委員会 (@tanabatasai_19) <a href="https://twitter.com/tanabatasai_19/status/1129971279346319360?ref_src=twsrc%5Etfw">2019年5月19日</a></blockquote>
@@ -385,8 +386,10 @@
 						</DIV>
 					</DIV>
 					<DIV style="">
-						<P>七夕祭のキャラクターだよ。</P>
-						<P>2019年5月19日、長後で行われた「長後まつり」にて、華々しくデビューしたんだ。</P>
+						<P>彗星の如くSFCに現れたイケメン。そのスタイルの良さとインパクト、カリスマ性で他を寄せ付けない孤高の存在。</P>
+						<P>彼によってSFCの秩序と平和が守られていることは言うまでもない。</P>
+						<P>2019年5月19日、長後で行われた「長後まつり」にて、華々しくデビューした。</P>
+						<P>七夕祭当日、SFCをパトロールしているよ。見かけたら話しかけてみてね！</P>
 					</DIV>
 				</DIV>
 				<DIV class="section">
@@ -402,20 +405,20 @@
 		<!-- FOOTER -->
 		<div class="footer">
 			<DIV style="margin-bottom: 1.0em;">
-				<DIV style="font-size: 1.3em;"><A style="text-decoration: none;color:#fff;" href="http://tanabata.sfc.keio.ac.jp/">慶應義塾大学 第30回七夕祭</A></DIV>
+				<DIV style="font-size: 1.3em;"><A style="text-decoration: none;color:#fff;" href="https://tanabata.sfc.keio.ac.jp/">慶應義塾大学 第30回七夕祭</A></DIV>
 				<DIV style="margin-bottom: 1.0em;">2019/07/06 (土) @湘南藤沢キャンパス</DIV>
 				<DIV>〒252-0882 神奈川県藤沢市遠藤5322 慶應義塾大学湘南藤沢キャンパス λ館19号室</DIV>
 			</DIV>
 			<DIV style="margin-bottom: 1.0em;">
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/">TOP</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/about.html">七夕祭について</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/access.html">アクセス</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/announce.html">注意事項</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/booth/">企画紹介</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/tmu/">実行委員の活動</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/form/">参加団体の方</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/kyousan.html">ご協賛のお願い</A>
-				<A class="menuelem" href="http://tanabata.sfc.keio.ac.jp/contact.html">お問い合わせ</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/">TOP</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/about.html">七夕祭について</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/access.html">アクセス</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/announce.html">注意事項</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/booth/">企画紹介</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/tmu/">実行委員の活動</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/form/">参加団体の方</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/kyousan.html">ご協賛のお願い</A>
+				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/contact.html">お問い合わせ</A>
 
 			</DIV>
 			<DIV style="margin-bottom: 1.0em;font-size:0.8em;">&copy 2019 慶應義塾大学湘南藤沢キャンパス 第30回七夕祭実行委員会</DIV>

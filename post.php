@@ -103,7 +103,7 @@
 			}
 		?>
 		<div>
-			<button onclick="location.href='http://tanabata.sfc.keio.ac.jp/'">戻る</button>
+			<button onclick="location.href='https://tanabata.sfc.keio.ac.jp/'">戻る</button>
 		</div>
 	</DIV>
 	</body>
