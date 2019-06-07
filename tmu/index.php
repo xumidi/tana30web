@@ -192,11 +192,17 @@
 				width:600px;
 				overflow-wrap : break-word;
 				font-size:0.8em;
+				line-height:1.7em;
 			}
 			.articles img{
 				max-width:60%;
 				border-radius:5px;
 				margin: 0.5em auto;
+				transform-origin:center;
+				transition:300ms transform 0s ease;
+			}
+			.articles img:hover{
+				transform:scale(1.04);
 			}
 			.head_menu a:nth-child(6){
 				background-color:#fff;
@@ -326,7 +332,7 @@
 					</ul>
 				</DIV>
 				<DIV class="section"><A id="blogs" class="anc"></A>
-					<H2>実行委員公式ブログ</H2>
+					<H2><SPAN class="lsf" style="font-weight: normal;margin-right:0.2em;">&#xE002;</SPAN>実行委員公式ブログ</H2>
 					<DIV class="section">
 						<P>実行委員が更新するブログです！日々の活動報告などを行っています！</P>
 						<P>↓最新の記事はこちら↓</P>
@@ -385,6 +391,7 @@
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 						</DIV>
 					</DIV>
+					<P>鴨イケメン公式Twitter：<a href="https://twitter.com/kamoikemen?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @kamoikemen</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 					<DIV style="">
 						<P>彗星の如くSFCに現れたイケメン。そのスタイルの良さとインパクト、カリスマ性で他を寄せ付けない孤高の存在。</P>
 						<P>彼によってSFCの秩序と平和が守られていることは言うまでもない。</P>
