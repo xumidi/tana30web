@@ -381,6 +381,7 @@
 				</DIV>
 				<DIV class="section kamoike"><A id="kamoikemen" class="anc"></A>
 					<H2>七夕祭公式キャラクター「鴨イケメン」</H2>
+					<P>鴨イケメン公式Twitter始めました！フォローしてね！<BR><a href="https://twitter.com/kamoikemen?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @kamoikemen</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 					<DIV class="flexbox">
 						<DIV class="ikemen">
 							<IMG src="kamoikemen.png" alt="鴨イケメン">
@@ -391,7 +392,6 @@
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 						</DIV>
 					</DIV>
-					<P>鴨イケメン公式Twitter：<a href="https://twitter.com/kamoikemen?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @kamoikemen</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 					<DIV style="">
 						<P>彗星の如くSFCに現れたイケメン。そのスタイルの良さとインパクト、カリスマ性で他を寄せ付けない孤高の存在。</P>
 						<P>彼によってSFCの秩序と平和が守られていることは言うまでもない。</P>
