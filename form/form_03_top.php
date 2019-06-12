@@ -4,7 +4,7 @@
 		<link rel="icon" type="image/png" href="../img/favicon.png" sizes="32x32">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-		<title>第30回七夕祭 企画参加申込システム</title>
+		<title>第30回七夕祭 第3回総会書類提出システム</title>
 		<script type="text/javascript">
 			var menuclosed=true;
 			var ln=[function(){location.href="../"},function(){window.scrollTo(0,0);location.hash="#"}];
@@ -27,7 +27,9 @@
 				location.href=location.href;
 			}
 			function restart(){
-				document.cookie="alldone=true; max-age=0";
+				document.cookie="form0301=true; max-age=0";
+				document.cookie="groupname=true; max-age=0";
+				document.cookie="groupno=true; max-age=0";
 				location.href=location.href;
 			}
 		</script>
@@ -216,14 +218,42 @@
 		</DIV>
 		<!-- END OF HEADER -->
 
-		<P><A HREF="https://tanabata.sfc.keio.ac.jp/form/">参加団体の方へ</A> > <B>第30回七夕祭 企画参加申込システム</B></P>
-		<H1>第30回七夕祭 企画参加申込システム</H1>
+		<P><A HREF="https://tanabata.sfc.keio.ac.jp/form/">参加団体の方へ</A> > <A HREF="https://tanabata.sfc.keio.ac.jp/form/form_top.php">第30回七夕祭 企画参加申込システム</A> > <B>第30回七夕祭 第3回総会書類提出システム</B></P>
+		<H1>第30回七夕祭 第3回総会書類提出システム</H1>
 		<div>
 			<ul>
-				<li><A HREF="form_01_top.php">第1回総会書類提出システム</A></li>
-				<li><A HREF="form_02_top.php">第2回総会書類提出システム</A></li>
-				<li><!--<A HREF="form_03_top.php">-->第3回総会書類提出システム</A></li>
+				<li>七夕祭への参加は総会への参加が必要です。参加ができない場合実行委員会までご連絡ください。</li>
 			</ul>
+				<hr>
+			<div>
+				<div>1. <A HREF="form_03_01.php">振込完了報告</A><?php
+				if(isset($_COOKIE["form0301"])){print(" - 提出済");}
+				?></div>
+				<?php
+					if(isset($_COOKIE["form0301"])){
+						print('<HR><div>全項目の入力が完了しています。<A href="javascript:restart()">別の団体として再度登録を行う</A></div>');
+					}
+					
+				?>
+				<!--
+				<?php
+					if(isset($_COOKIE["groupname"])){
+						print($_COOKIE["groupname"].'様</div><div>');
+						if(isset($_COOKIE["doui"])){
+							print('1. 企画参加申込書の記入 - 入力完了 <A href="form1.php?re">修正</A></div><div>2. 同意書の記入 - 入力完了</div><div>3. <A HREF="form_food.php">食品販売調査書の提出</A> (食品販売を行う団体のみ)</div><div style="margin-top:0.8em;"><A href="javascript:finish()">食品を扱う団体ではないので申込を完了する</A></div><div style="margin-top:0.8em;">食品調査書は後日の提出も可能です。後日の提出を予定されている方は、申込完了を押さないでください。');
+						}else{
+							print('1. 企画参加申込書の記入 - 入力完了 <A href="form1.php?re">修正</A></div><div>2. <a href="form3.php"><B>同意書の記入</B></a></div><div>3. 食品販売調査書の提出 (食品販売を行う団体のみ)</div><div style="margin-top:0.8em;color:#ff0000;font-weight:bold;">まだ申し込み手続は完了していません。同意書の提出をもって手続完了となります。');
+						
+						}
+					}else if(isset($_COOKIE["alldone"])){
+							print('1. 企画参加申込書の記入 - 入力完了</div><div>2. 同意書の記入 - 入力完了</div><div>3. 食品販売調査書の提出 (食品販売を行う団体のみ) - 入力完了</div><div style="margin-top:0.8em;">全項目の入力が完了しています。<A href="javascript:restart()">別の団体として再度登録を行う</A></div><hr><div>情報を既に登録済みの方で修正を希望される場合は<A HREF="form1.php?re">こちら</A></div><div><A href="../">第30回七夕祭 トップページ</A>');
+					}else{
+						print('1. <a href="form1.php">企画参加申込書の記入</a></div><div>2. 同意書の記入</div><div>3. 食品販売調査書の提出</div><hr><div>情報を既に登録済みの方で修正を希望される場合は<A HREF="form1.php?re">こちら</A></div><div>情報を既に登録済みの方で食品販売調査書の提出を希望される場合は<A HREF="form_food.php?re">こちら</A>');
+					}
+					print("</div>")
+				?>
+				-->
+			</div>
 		</div>
 	</body>
 </html>

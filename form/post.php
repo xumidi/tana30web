@@ -250,6 +250,17 @@
 				}else{
 					print("<div>メールが送信できませんでした。お手数ですが、メールアドレスが正しいかお確かめの上、もう一度お試しください。</div>");
 				}
+			}else if($_POST["formtype"][0]=="form0301"){//振込完了報告
+				mb_language("Japanese");
+				mb_internal_encoding("UTF-8");
+				if(mb_send_mail($_POST["food_tanto_mail"][0],"振込完了報告受付完了のお知らせ",$_POST["groupname"][0]."代表者、七夕祭担当者様。\r\n第30回七夕祭実行委員会です。\r\n「振込完了報告」の提出を確認いたしました。\r\n\r\n。ありがとうございました。\r\n\r\n============================================\r\nこのメールは自動送信です。\r\nお心当たりのない方は、他の方が誤ってあなたのメールアドレスを入力した可能性があります。その場合はお手数をおかけいたしますが、下記アドレスまでご連絡ください。\r\n\r\n七夕祭実行委員会お問い合わせメーリングリスト\r\ntana30th_info@googlegroups.com\r\n============================================",$headers)){
+					print("<div>振込完了報告の提出を受け付けました。</div>");
+					setcookie('form0301', 'true', time()+ 2592000);
+					setcookie('groupno', $_POST["groupno"][0], time()+ 2592000);
+					setcookie('groupname', $_POST["groupname"][0], time()+ 2592000);
+				}else{
+					print("<div>メールが送信できませんでした。お手数ですが、メールアドレスが正しいかお確かめの上、もう一度お試しください。</div>");
+				}
 			}
 
 			//print($s);
@@ -258,7 +269,7 @@
 			}
 		?>
 		<div>
-			<button onclick="location.href='https://tanabata.sfc.keio.ac.jp/form/form_02_top.php'">参加申込システムトップに戻る</button>
+			<button onclick="location.href='https://tanabata.sfc.keio.ac.jp/form/form_03_top.php'">参加申込システムトップに戻る</button>
 		</div>
 	</DIV>
 	</body>

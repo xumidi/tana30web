@@ -332,7 +332,7 @@
 					</ul>
 				</DIV>
 				<DIV class="section"><A id="blogs" class="anc"></A>
-					<H2><SPAN class="lsf" style="font-weight: normal;margin-right:0.2em;">&#xE002;</SPAN>実行委員公式ブログ</H2>
+					<H2><SPAN class="lsf" style="font-weight: normal;margin-right:0.2em;">&#xE002;</SPAN><A href="blogs/">実行委員公式ブログ</A></H2>
 					<DIV class="section">
 						<P>実行委員が更新するブログです！日々の活動報告などを行っています！</P>
 						<P>↓最新の記事はこちら↓</P>
