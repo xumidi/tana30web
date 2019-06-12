@@ -428,6 +428,12 @@
 				<A class="menuelem" href="https://tanabata.sfc.keio.ac.jp/contact.html">お問い合わせ</A>
 
 			</DIV>
+			<DIV style="margin: 1.5em auto;">
+				<a href="https://twitter.com/tanabatasai_19?size=large&ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tanabatasai_19</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				<SCRIPT type="text/JavaScript">
+					document.write("<a href=\"https://twitter.com/intent/tweet?text="+encodeURI(document.title)+"%0a"+location.href+"&size=large&ref_src=twsrc%5Etfw\" class=\"twitter-hashtag-button\" data-show-count=\"false\" data-via=\"tanabatasai_19\">Tweet #tweet</a>"+"<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"><\/script>");
+				</script>
+			</DIV>
 			<DIV style="margin-bottom: 1.0em;font-size:0.8em;">&copy 2019 慶應義塾大学湘南藤沢キャンパス 第30回七夕祭実行委員会</DIV>
 		</div>
 		<!-- END OF FOOTER -->
