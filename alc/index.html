@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta property="og:title" content="お問い合わせ - 第30回七夕祭">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="https://tanabata.sfc.keio.ac.jp/img/card.png">
+		<meta property="og:url" content="https://tanabata.sfc.keio.ac.jp/">
+		<meta property="og:locate" content="ja_JP">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:street-address" content="遠藤5322 λ19">
+		<meta property="og:locality" content="藤沢市">
+		<meta property="og:region" content="神奈川県">
+		<meta property="og:postal-code" content="252-0816郵便番号">
+		<meta property="og:country-name" content="Japan" />
+		<meta name="twitter:site" content="@tanabatasai_19">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image" content="https://tanabata.sfc.keio.ac.jp/img/card_twitter.png">
+		<meta property="fb:admins" content="204536572914412">
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="description" content="SFCで7月6日に開催される慶應唯一の夏祭り、『七夕祭』公式サイトです。">
+		<link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+		<meta name="theme-color" content="#3ca8a1">
+		<meta name="robots" content="noindex" />
+		<title>第30回七夕祭アルコール登録システム</title>
+		<script type="text/javascript">
+		</script>
+		<style type="text/css">
+			body,button,input{
+				font-size:1.5em;
+			}
+			button{
+				margin-left:1.0em;
+			}
+			*, *:before, *:after {
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-o-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+
+			div{
+				width:100%;
+				margin-bottom:1.0em;
+			}
+			div div{
+				width:20%;
+				margin:1.0em;
+			}
+			div div div{
+				background-color:#e6e6e6;
+				border-radius:10px;
+				margin:1.0em;
+				width:100%;
+				cursor:pointer;
+			}
+			div div div label{
+				display:block;
+				background-color:#e6e6e6;
+				border-radius:10px;
+				padding:1.0em;
+				width:100%;
+				cursor:pointer;
+				transition: 200ms all ease 0s;
+			}
+			div div div label:hover{
+				background-color:#f0f0f0;
+				transform:scale(1.1);
+			}
+			.frs input{
+				width: 0.5em;
+				height: 0.5em;
+			}
+			.scnd{
+				cursor:auto;
+				width:70%;
+			}
+			.yyy,.ddd,.nnn{
+				cursor:auto;
+				padding:1.0em;
+			}
+			.yyy input{
+				width:4em;
+			}
+			.ddd input{
+				width:2em;
+			}
+			.nnn input{
+				width:10em;
+			}
+		</STYLE>
+	</head>
+	<body>
+		<form action="post.php" method="post" enctype="multipart/form-data" name="mailform" onSubmit="return check()">
+		<INPUT style="display: none;" name="formtype[]" value="mailform">
+			<div style="display: flex;">
+				<DIV class="frs">
+					<DIV><label><INPUT type="radio" name="gengo[]" value="meiji">明治</LABEL></DIV>
+					<DIV><label><INPUT type="radio" name="gengo[]" value="taisho">大正</LABEL></DIV>
+					<DIV><label><INPUT type="radio" name="gengo[]" value="showa">昭和</LABEL></DIV>
+					<DIV><label><INPUT type="radio" name="gengo[]" value="heisei">平成</LABEL></DIV>
+					<DIV><label><INPUT type="radio" name="gengo[]" value="reiwa">令和</LABEL></DIV>
+					<DIV><label><INPUT type="radio" name="gengo[]" value="seireki" checked>西暦</LABEL></DIV>
+				</DIV>
+				<DIV class="scnd">
+					<DIV class="yyy"><INPUT name="year[]" type="number">年</div>
+					<DIV class="ddd"><INPUT name="month[]" type="number">月</div>
+					<DIV class="ddd"><INPUT name="day[]" type="number">日</div>
+					<DIV class="nnn">氏名<INPUT name="name[]" type="text"></div>
+					<BUTTON type="submit">確定</BUTTON>
+				</DIV>
+			</DIV>
+			<DIV class="description">
+			
+			</DIV>
+		</form>
+
+	</body>
+</html>
